@@ -1,12 +1,16 @@
-import './App.css'
+import AddToDo from "./components/addtodo"
+import Navbar from "./components/navbar"
+import Todos from "./components/todos"
+import "./App.css"
 
-function App() {
-  
-
+const App = () => {
   return (
-    <div>
-    <h1>Hello React19</h1>
-    </div>
+   <main>
+      <h1>TODO REACT + TYPESCRIPT </h1>
+      <Navbar />
+      <AddToDo />
+      <Todos />
+   </main>
   )
 }
 
